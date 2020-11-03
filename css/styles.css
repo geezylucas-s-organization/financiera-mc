@@ -18,7 +18,7 @@ p {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   margin-bottom: 4rem;
 }
 
@@ -30,7 +30,7 @@ p {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -51,13 +51,13 @@ p {
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-weight: bold;
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: black;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-size: 18px;
   padding: 0.75rem 0;
 }
@@ -79,7 +79,6 @@ p {
   #mainNav .navbar-brand:hover {
     color: #fff;
     font-weight: bold;
-
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: #fff;
@@ -95,9 +94,8 @@ p {
   }
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.3));
-    background-color: #001B38;
-
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+    background-color: #001b38;
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #fff;
@@ -112,18 +110,19 @@ p {
     color: #f4623a;
   }
 }
+
 #mainNav2 {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
 }
 #mainNav2 .navbar-brand {
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-weight: bold;
   color: #212529;
 }
 #mainNav2 .navbar-nav .nav-item .nav-link {
   color: black;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-size: 18px;
   padding: 0.75rem 0;
 }
@@ -137,7 +136,7 @@ p {
 @media (min-width: 992px) {
   #mainNav2 {
     box-shadow: none;
-    background-color: #001B38;
+    background-color: #001b38;
   }
   #mainNav2 .navbar-brand {
     color: #fff;
@@ -145,19 +144,38 @@ p {
   #mainNav2 .navbar-brand:hover {
     color: #fff;
     font-weight: bold;
-
   }
   #mainNav2 .navbar-nav .nav-item .nav-link {
     color: #fff;
     padding: 0 1rem;
     transition: font-weight 0.4s;
   }
-
+  #mainNav2 .navbar-nav .nav-item .nav-link:hover {
+    color: #fff;
+    font-weight: 600;
+  }
   #mainNav2 .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
-
+  #mainNav2.navbar-scrolled {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+    background-color: #001b38;
+  }
+  #mainNav2.navbar-scrolled .navbar-brand {
+    color: #fff;
+  }
+  #mainNav2.navbar-scrolled .navbar-brand:hover {
+    color: #f4623a;
+  }
+  #mainNav2.navbar-scrolled .navbar-nav .nav-item .nav-link {
+    color: #fff;
+  }
+  #mainNav2.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
+    color: #f4623a;
+  }
 }
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
@@ -175,14 +193,14 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
 }
 header.masthead .masthead-heading {
   font-size: 2.5rem; /*3.25rem;*/
   font-weight: 0;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
 }
 
 @media (min-width: 768px) {
@@ -242,13 +260,13 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-weight: 700;
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
 }
 
 .portfolio-modal .modal-dialog {
@@ -267,7 +285,7 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
   margin-bottom: 2rem;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
@@ -498,22 +516,22 @@ section#contact form#contactForm .form-control:focus {
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-moz-placeholder {
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm ::-moz-placeholder {
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   font-weight: 700;
   color: #ced4da;
 }
@@ -521,35 +539,40 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  font-family:"Open Sans";
+  font-family: "Open Sans";
   background-color: black;
 }
 
-.row_ofre{
+.row_ofre {
   padding-top: 30px;
   padding-bottom: 40px;
 }
 
-
-@media (max-width: 700px){
-    .img1{
-      top: 0px;
-      left: 0px;
-    }
-    .img2{
-      top: 0px;
-      bottom: 0px;
-    }
+@media (max-width: 700px) {
+  .img1 {
+    top: 0px;
+    left: 0px;
+  }
+  .img2 {
+    top: 0px;
+    bottom: 0px;
+  }
 }
-@media (min-width: 700px){
-  .img1{
+@media (min-width: 700px) {
+  .img1 {
     position: relative;
     left: -140px;
     top: -50px;
   }
-  .img2{
+  .img2 {
     position: relative;
     top: 50px;
     left: -140px;
   }
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
 }
